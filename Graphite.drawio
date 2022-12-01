@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T18:33:13.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dQGmuP7FaeIdHVqm_hjs" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-01T20:19:36.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lY7k0Wq8XGHXZ6J0kgsn" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2061" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,7 +210,7 @@
           <mxGeometry x="620" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rJi9kIS5OPSD2-cqicnf-22" value="Save Settings" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-280" y="100" width="120" height="150" as="geometry" />
+          <mxGeometry x="-280" y="100" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="rJi9kIS5OPSD2-cqicnf-23" value="Proposal Cost" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="rJi9kIS5OPSD2-cqicnf-22">
           <mxGeometry y="30" width="120" height="30" as="geometry" />
@@ -223,6 +223,9 @@
         </mxCell>
         <mxCell id="rJi9kIS5OPSD2-cqicnf-26" value="Pass Percentage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="rJi9kIS5OPSD2-cqicnf-22">
           <mxGeometry y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rJi9kIS5OPSD2-cqicnf-47" value="Approval Quorum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="rJi9kIS5OPSD2-cqicnf-22">
+          <mxGeometry y="150" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rJi9kIS5OPSD2-cqicnf-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="280" width="20" height="60" as="geometry" />
@@ -247,6 +250,21 @@
         </mxCell>
         <mxCell id="rJi9kIS5OPSD2-cqicnf-41" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="320" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rJi9kIS5OPSD2-cqicnf-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rJi9kIS5OPSD2-cqicnf-42" target="rJi9kIS5OPSD2-cqicnf-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJi9kIS5OPSD2-cqicnf-42" value="Is Approver" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rJi9kIS5OPSD2-cqicnf-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rJi9kIS5OPSD2-cqicnf-43" target="rJi9kIS5OPSD2-cqicnf-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJi9kIS5OPSD2-cqicnf-43" value="Proposal Exists" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rJi9kIS5OPSD2-cqicnf-45" value="Register Approval" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
