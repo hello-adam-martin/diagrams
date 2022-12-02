@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T02:10:08.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hLjPyu4QOApBQgt5tL2k" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-02T02:17:00.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nAAPp696XXj26hX1AGef" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2125" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,10 +244,10 @@
           <mxGeometry x="-100" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rJi9kIS5OPSD2-cqicnf-49" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="750" y="350" width="20" height="420" as="geometry" />
+          <mxGeometry x="750" y="350" width="20" height="380" as="geometry" />
         </mxCell>
         <mxCell id="rJi9kIS5OPSD2-cqicnf-50" value="Validation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="750" y="545" width="75" height="30" as="geometry" />
+          <mxGeometry x="750" y="525" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rJi9kIS5OPSD2-cqicnf-51" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="750" y="10" width="20" height="250" as="geometry" />
@@ -335,6 +335,18 @@
         </mxCell>
         <mxCell id="rkc7SUtTGQvXAW1t-tnv-27" value="Remove Approver" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-280" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkc7SUtTGQvXAW1t-tnv-33" value="Graphite Controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-639" y="840" width="479" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rkc7SUtTGQvXAW1t-tnv-34" value="Proposal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-100" y="840" width="840" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rkc7SUtTGQvXAW1t-tnv-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="770" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rkc7SUtTGQvXAW1t-tnv-36" value="Smart Contracts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="810" width="75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
